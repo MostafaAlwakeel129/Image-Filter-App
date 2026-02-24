@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Downloads\Image-Filter-hB\Image-Filter-App\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\frontend\cv_backend.cp311-win_amd64.pyd</FullPath>
+      <FullPath>D:\Downloads\Image-Filter-hB\Image-Filter-App\frontend\cv_backend.cp311-win_amd64.pyd</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

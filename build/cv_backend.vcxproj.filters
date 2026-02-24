@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\backend\color_hybrid.cpp">
+    <ClCompile Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\backend\color_hybrid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\backend\edge_freq.cpp">
+    <ClCompile Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\backend\edge_freq.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\backend\hist_contrast.cpp">
+    <ClCompile Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\backend\hist_contrast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\backend\main_bindings.cpp">
+    <ClCompile Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\backend\main_bindings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\backend\noise_filters.cpp">
+    <ClCompile Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\backend\noise_filters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Vs_Projects\Computer-Vision-Tasks\Image-Filter-App\CMakeLists.txt" />
+    <CustomBuild Include="D:\Downloads\Image-Filter-hB\Image-Filter-App\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6A7CC668-3A7D-3D3F-9679-3BFE4BD1D46D}</UniqueIdentifier>
+      <UniqueIdentifier>{A25E617E-9740-3465-97FB-799873636CDC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

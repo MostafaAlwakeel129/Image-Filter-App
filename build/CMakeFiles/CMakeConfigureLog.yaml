@@ -77,7 +77,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -96,9 +95,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 24-Feb-26 1:36:36 PM.
+      Build started 24-Feb-26 4:55:10 PM.
       
-      Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -111,7 +110,7 @@ events:
         CMakeCCompilerId.c
       Link:
         D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -119,13 +118,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.83
+      Time Elapsed 00:00:02.49
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -133,7 +132,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
+        D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -193,7 +192,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -243,7 +241,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -304,7 +301,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -416,9 +412,6 @@ events:
       - "D:/opencv/build/bin/lld-link.com"
       - "D:/opencv/build/bin/lld-link.exe"
       - "D:/opencv/build/bin/lld-link"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
       - "D:/Git/usr/bin/vendor_perl/lld-link.com"
       - "D:/Git/usr/bin/vendor_perl/lld-link.exe"
       - "D:/Git/usr/bin/vendor_perl/lld-link"
@@ -470,7 +463,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -529,7 +521,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -579,7 +570,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -638,7 +628,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -750,9 +739,6 @@ events:
       - "D:/opencv/build/bin/mt.com"
       - "D:/opencv/build/bin/mt.exe"
       - "D:/opencv/build/bin/mt"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
       - "D:/Git/usr/bin/vendor_perl/mt.com"
       - "D:/Git/usr/bin/vendor_perl/mt.exe"
       - "D:/Git/usr/bin/vendor_perl/mt"
@@ -804,7 +790,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -863,7 +848,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -913,7 +897,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -985,7 +968,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -1004,9 +986,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 24-Feb-26 1:36:37 PM.
+      Build started 24-Feb-26 4:55:13 PM.
       
-      Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -1019,7 +1001,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -1027,13 +1009,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.80
+      Time Elapsed 00:00:00.75
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1041,7 +1023,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+        D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -1101,7 +1083,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
     searched_directories:
@@ -1213,9 +1194,6 @@ events:
       - "D:/opencv/build/bin/lld-link.com"
       - "D:/opencv/build/bin/lld-link.exe"
       - "D:/opencv/build/bin/lld-link"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
       - "D:/Git/usr/bin/vendor_perl/lld-link.com"
       - "D:/Git/usr/bin/vendor_perl/lld-link.exe"
       - "D:/Git/usr/bin/vendor_perl/lld-link"
@@ -1267,7 +1245,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
   -
@@ -1328,7 +1305,6 @@ events:
       - "D:/CLion 2025.3.2/bin/"
       - "D:/gcc/mingw64/bin/"
       - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "D:/Git/usr/bin/vendor_perl/"
       - "D:/Git/usr/bin/core_perl/"
       - "C:/Program Files/bin/"
@@ -1449,9 +1425,6 @@ events:
       - "D:/opencv/build/bin/rc.com"
       - "D:/opencv/build/bin/rc.exe"
       - "D:/opencv/build/bin/rc"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
       - "D:/Git/usr/bin/vendor_perl/rc.com"
       - "D:/Git/usr/bin/vendor_perl/rc.exe"
       - "D:/Git/usr/bin/vendor_perl/rc"
@@ -1539,7 +1512,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
@@ -1557,8 +1529,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-f9xpwh"
-      binary: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-f9xpwh"
+      source: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-pksnrk"
+      binary: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-pksnrk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1567,39 +1539,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-f9xpwh'
+        Change Dir: 'D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-pksnrk'
         
-        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2f742.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59a5e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 24-Feb-26 1:36:38 PM.
+        Build started 24-Feb-26 4:55:14 PM.
         
-        Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9xpwh\\cmTC_2f742.vcxproj" on node 1 (default targets).
+        Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pksnrk\\cmTC_59a5e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9xpwh\\Debug\\".
-          Creating directory "cmTC_2f742.dir\\Debug\\cmTC_2f742.tlog\\".
+          Creating directory "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pksnrk\\Debug\\".
+          Creating directory "cmTC_59a5e.dir\\Debug\\cmTC_59a5e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2f742.dir\\Debug\\cmTC_2f742.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2f742.dir\\Debug\\cmTC_2f742.tlog\\unsuccessfulbuild".
+          Creating "cmTC_59a5e.dir\\Debug\\cmTC_59a5e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_59a5e.dir\\Debug\\cmTC_59a5e.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2f742.dir\\Debug\\\\" /Fd"cmTC_2f742.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_59a5e.dir\\Debug\\\\" /Fd"cmTC_59a5e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2f742.dir\\Debug\\\\" /Fd"cmTC_2f742.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_59a5e.dir\\Debug\\\\" /Fd"cmTC_59a5e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9xpwh\\Debug\\cmTC_2f742.exe" /INCREMENTAL /ILK:"cmTC_2f742.dir\\Debug\\cmTC_2f742.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-f9xpwh/Debug/cmTC_2f742.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-f9xpwh/Debug/cmTC_2f742.lib" /MACHINE:X64  /machine:x64 cmTC_2f742.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2f742.vcxproj -> D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9xpwh\\Debug\\cmTC_2f742.exe
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pksnrk\\Debug\\cmTC_59a5e.exe" /INCREMENTAL /ILK:"cmTC_59a5e.dir\\Debug\\cmTC_59a5e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-pksnrk/Debug/cmTC_59a5e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-pksnrk/Debug/cmTC_59a5e.lib" /MACHINE:X64  /machine:x64 cmTC_59a5e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_59a5e.vcxproj -> D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pksnrk\\Debug\\cmTC_59a5e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2f742.dir\\Debug\\cmTC_2f742.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2f742.dir\\Debug\\cmTC_2f742.tlog\\cmTC_2f742.lastbuildstate".
-        Done Building Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9xpwh\\cmTC_2f742.vcxproj" (default targets).
+          Deleting file "cmTC_59a5e.dir\\Debug\\cmTC_59a5e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59a5e.dir\\Debug\\cmTC_59a5e.tlog\\cmTC_59a5e.lastbuildstate".
+        Done Building Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pksnrk\\cmTC_59a5e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.98
+        Time Elapsed 00:00:00.76
         
       exitCode: 0
   -
@@ -1639,8 +1611,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ge1ero"
-      binary: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ge1ero"
+      source: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ekcn2t"
+      binary: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ekcn2t"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1650,39 +1622,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ge1ero'
+        Change Dir: 'D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ekcn2t'
         
-        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c864b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_adc4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 24-Feb-26 1:36:39 PM.
+        Build started 24-Feb-26 4:55:15 PM.
         
-        Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1ero\\cmTC_c864b.vcxproj" on node 1 (default targets).
+        Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ekcn2t\\cmTC_adc4c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1ero\\Debug\\".
-          Creating directory "cmTC_c864b.dir\\Debug\\cmTC_c864b.tlog\\".
+          Creating directory "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ekcn2t\\Debug\\".
+          Creating directory "cmTC_adc4c.dir\\Debug\\cmTC_adc4c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c864b.dir\\Debug\\cmTC_c864b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c864b.dir\\Debug\\cmTC_c864b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_adc4c.dir\\Debug\\cmTC_adc4c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_adc4c.dir\\Debug\\cmTC_adc4c.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c864b.dir\\Debug\\\\" /Fd"cmTC_c864b.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_adc4c.dir\\Debug\\\\" /Fd"cmTC_adc4c.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c864b.dir\\Debug\\\\" /Fd"cmTC_c864b.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_adc4c.dir\\Debug\\\\" /Fd"cmTC_adc4c.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1ero\\Debug\\cmTC_c864b.exe" /INCREMENTAL /ILK:"cmTC_c864b.dir\\Debug\\cmTC_c864b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ge1ero/Debug/cmTC_c864b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ge1ero/Debug/cmTC_c864b.lib" /MACHINE:X64  /machine:x64 cmTC_c864b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_c864b.vcxproj -> D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1ero\\Debug\\cmTC_c864b.exe
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ekcn2t\\Debug\\cmTC_adc4c.exe" /INCREMENTAL /ILK:"cmTC_adc4c.dir\\Debug\\cmTC_adc4c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ekcn2t/Debug/cmTC_adc4c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-ekcn2t/Debug/cmTC_adc4c.lib" /MACHINE:X64  /machine:x64 cmTC_adc4c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_adc4c.vcxproj -> D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ekcn2t\\Debug\\cmTC_adc4c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_c864b.dir\\Debug\\cmTC_c864b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_c864b.dir\\Debug\\cmTC_c864b.tlog\\cmTC_c864b.lastbuildstate".
-        Done Building Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ge1ero\\cmTC_c864b.vcxproj" (default targets).
+          Deleting file "cmTC_adc4c.dir\\Debug\\cmTC_adc4c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_adc4c.dir\\Debug\\cmTC_adc4c.tlog\\cmTC_adc4c.lastbuildstate".
+        Done Building Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ekcn2t\\cmTC_adc4c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.99
+        Time Elapsed 00:00:00.74
         
       exitCode: 0
   -
@@ -1716,378 +1688,69 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "D:/CMake/share/cmake-4.2/Modules/FindPythonInterp.cmake:144 (find_program)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2180 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
       - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "program"
-    variable: "PYTHON_EXECUTABLE"
+    variable: "_Python_EXECUTABLE"
     description: "Path to a program."
     settings:
       SearchFramework: "NEVER"
       SearchAppBundle: "NEVER"
       CMAKE_FIND_USE_CMAKE_PATH: true
       CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "python3.8"
+      - "python3.15"
       - "python3"
+      - "python"
+      - "pypy3"
     candidate_directories:
-      - "C:/Users/Mohamed/bin/"
-      - "D:/Git/mingw64/bin/"
-      - "D:/Git/usr/local/bin/"
-      - "D:/Git/usr/bin/"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/Git/cmd/"
-      - "D:/nodejs/"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
-      - "D:/Flutter SDK/flutter/bin/"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/"
-      - "D:/CMake/bin/"
-      - "D:/opencv/build/x64/vc16/bin/"
-      - "D:/Python11/Scripts/"
-      - "D:/Python11/"
-      - "D:/Python/Python313/Scripts/"
-      - "D:/Python/Python313/"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/Flutter/flutter/bin/"
-      - "D:/Android/Sdk/platform-tools/"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/"
-      - "C:/Users/Mohamed/.dotnet/tools/"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/"
-      - "D:/CLion 2025.3.2/bin/"
-      - "D:/gcc/mingw64/bin/"
-      - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "D:/Git/usr/bin/vendor_perl/"
-      - "D:/Git/usr/bin/core_perl/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "D:/CMake/bin/"
-      - "D:/CMake/sbin/"
-      - "D:/CMake/"
-      - "C:/Program Files (x86)/MyVisionApp/bin/"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/"
-      - "C:/Program Files (x86)/MyVisionApp/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "C:/Users/Mohamed/bin/python3.8.com"
-      - "C:/Users/Mohamed/bin/python3.8.exe"
-      - "C:/Users/Mohamed/bin/python3.8"
-      - "D:/Git/mingw64/bin/python3.8.com"
-      - "D:/Git/mingw64/bin/python3.8.exe"
-      - "D:/Git/mingw64/bin/python3.8"
-      - "D:/Git/usr/local/bin/python3.8.com"
-      - "D:/Git/usr/local/bin/python3.8.exe"
-      - "D:/Git/usr/local/bin/python3.8"
-      - "D:/Git/usr/bin/python3.8.com"
-      - "D:/Git/usr/bin/python3.8.exe"
-      - "D:/Git/usr/bin/python3.8"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8"
-      - "C:/Windows/System32/python3.8.com"
-      - "C:/Windows/System32/python3.8.exe"
-      - "C:/Windows/System32/python3.8"
-      - "C:/Windows/python3.8.com"
-      - "C:/Windows/python3.8.exe"
-      - "C:/Windows/python3.8"
-      - "C:/Windows/System32/wbem/python3.8.com"
-      - "C:/Windows/System32/wbem/python3.8.exe"
-      - "C:/Windows/System32/wbem/python3.8"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8"
-      - "C:/Windows/System32/OpenSSH/python3.8.com"
-      - "C:/Windows/System32/OpenSSH/python3.8.exe"
-      - "C:/Windows/System32/OpenSSH/python3.8"
-      - "D:/Git/cmd/python3.8.com"
-      - "D:/Git/cmd/python3.8.exe"
-      - "D:/Git/cmd/python3.8"
-      - "D:/nodejs/python3.8.com"
-      - "D:/nodejs/python3.8.exe"
-      - "D:/nodejs/python3.8"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.8.com"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.8.exe"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.8"
-      - "C:/Program Files/dotnet/python3.8.com"
-      - "C:/Program Files/dotnet/python3.8.exe"
-      - "C:/Program Files/dotnet/python3.8"
-      - "D:/Flutter SDK/flutter/bin/python3.8.com"
-      - "D:/Flutter SDK/flutter/bin/python3.8.exe"
-      - "D:/Flutter SDK/flutter/bin/python3.8"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.8.com"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.8.exe"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.8"
-      - "D:/CMake/bin/python3.8.com"
-      - "D:/CMake/bin/python3.8.exe"
-      - "D:/CMake/bin/python3.8"
-      - "D:/opencv/build/x64/vc16/bin/python3.8.com"
-      - "D:/opencv/build/x64/vc16/bin/python3.8.exe"
-      - "D:/opencv/build/x64/vc16/bin/python3.8"
-      - "D:/Python11/Scripts/python3.8.com"
-      - "D:/Python11/Scripts/python3.8.exe"
-      - "D:/Python11/Scripts/python3.8"
-      - "D:/Python11/python3.8.com"
-      - "D:/Python11/python3.8.exe"
-      - "D:/Python11/python3.8"
-      - "D:/Python/Python313/Scripts/python3.8.com"
-      - "D:/Python/Python313/Scripts/python3.8.exe"
-      - "D:/Python/Python313/Scripts/python3.8"
-      - "D:/Python/Python313/python3.8.com"
-      - "D:/Python/Python313/python3.8.exe"
-      - "D:/Python/Python313/python3.8"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.8.com"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.8.exe"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.8"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.8.com"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.8.exe"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.8"
-      - "D:/Microsoft VS Code/bin/python3.8.com"
-      - "D:/Microsoft VS Code/bin/python3.8.exe"
-      - "D:/Microsoft VS Code/bin/python3.8"
-      - "D:/Flutter/flutter/bin/python3.8.com"
-      - "D:/Flutter/flutter/bin/python3.8.exe"
-      - "D:/Flutter/flutter/bin/python3.8"
-      - "D:/Android/Sdk/platform-tools/python3.8.com"
-      - "D:/Android/Sdk/platform-tools/python3.8.exe"
-      - "D:/Android/Sdk/platform-tools/python3.8"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.8.com"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.8.exe"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.8"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.8.com"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.8.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.8"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.8.com"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.8.exe"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.8"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.8.com"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.8.exe"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.8"
-      - "D:/CLion 2025.3.2/bin/python3.8.com"
-      - "D:/CLion 2025.3.2/bin/python3.8.exe"
-      - "D:/CLion 2025.3.2/bin/python3.8"
-      - "D:/gcc/mingw64/bin/python3.8.com"
-      - "D:/gcc/mingw64/bin/python3.8.exe"
-      - "D:/gcc/mingw64/bin/python3.8"
-      - "D:/opencv/build/bin/python3.8.com"
-      - "D:/opencv/build/bin/python3.8.exe"
-      - "D:/opencv/build/bin/python3.8"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8"
-      - "D:/Git/usr/bin/vendor_perl/python3.8.com"
-      - "D:/Git/usr/bin/vendor_perl/python3.8.exe"
-      - "D:/Git/usr/bin/vendor_perl/python3.8"
-      - "D:/Git/usr/bin/core_perl/python3.8.com"
-      - "D:/Git/usr/bin/core_perl/python3.8.exe"
-      - "D:/Git/usr/bin/core_perl/python3.8"
-      - "C:/Program Files/bin/python3.8.com"
-      - "C:/Program Files/bin/python3.8.exe"
-      - "C:/Program Files/bin/python3.8"
-      - "C:/Program Files/sbin/python3.8.com"
-      - "C:/Program Files/sbin/python3.8.exe"
-      - "C:/Program Files/sbin/python3.8"
-      - "C:/Program Files/python3.8.com"
-      - "C:/Program Files/python3.8.exe"
-      - "C:/Program Files/python3.8"
-      - "C:/Program Files (x86)/bin/python3.8.com"
-      - "C:/Program Files (x86)/bin/python3.8.exe"
-      - "C:/Program Files (x86)/bin/python3.8"
-      - "C:/Program Files (x86)/sbin/python3.8.com"
-      - "C:/Program Files (x86)/sbin/python3.8.exe"
-      - "C:/Program Files (x86)/sbin/python3.8"
-      - "C:/Program Files (x86)/python3.8.com"
-      - "C:/Program Files (x86)/python3.8.exe"
-      - "C:/Program Files (x86)/python3.8"
-      - "D:/CMake/bin/python3.8.com"
-      - "D:/CMake/bin/python3.8.exe"
-      - "D:/CMake/bin/python3.8"
-      - "D:/CMake/sbin/python3.8.com"
-      - "D:/CMake/sbin/python3.8.exe"
-      - "D:/CMake/sbin/python3.8"
-      - "D:/CMake/python3.8.com"
-      - "D:/CMake/python3.8.exe"
-      - "D:/CMake/python3.8"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.8.com"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.8.exe"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.8"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.8.com"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.8.exe"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.8"
-      - "C:/Program Files (x86)/MyVisionApp/python3.8.com"
-      - "C:/Program Files (x86)/MyVisionApp/python3.8.exe"
-      - "C:/Program Files (x86)/MyVisionApp/python3.8"
-      - "C:/Users/Mohamed/bin/python3.com"
-      - "C:/Users/Mohamed/bin/python3.exe"
-      - "C:/Users/Mohamed/bin/python3"
-      - "D:/Git/mingw64/bin/python3.com"
-      - "D:/Git/mingw64/bin/python3.exe"
-      - "D:/Git/mingw64/bin/python3"
-      - "D:/Git/usr/local/bin/python3.com"
-      - "D:/Git/usr/local/bin/python3.exe"
-      - "D:/Git/usr/local/bin/python3"
-      - "D:/Git/usr/bin/python3.com"
-      - "D:/Git/usr/bin/python3.exe"
-      - "D:/Git/usr/bin/python3"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3"
-      - "C:/Windows/System32/python3.com"
-      - "C:/Windows/System32/python3.exe"
-      - "C:/Windows/System32/python3"
-      - "C:/Windows/python3.com"
-      - "C:/Windows/python3.exe"
-      - "C:/Windows/python3"
-      - "C:/Windows/System32/wbem/python3.com"
-      - "C:/Windows/System32/wbem/python3.exe"
-      - "C:/Windows/System32/wbem/python3"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3"
-      - "C:/Windows/System32/OpenSSH/python3.com"
-      - "C:/Windows/System32/OpenSSH/python3.exe"
-      - "C:/Windows/System32/OpenSSH/python3"
-      - "D:/Git/cmd/python3.com"
-      - "D:/Git/cmd/python3.exe"
-      - "D:/Git/cmd/python3"
-      - "D:/nodejs/python3.com"
-      - "D:/nodejs/python3.exe"
-      - "D:/nodejs/python3"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.com"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.exe"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3"
-      - "C:/Program Files/dotnet/python3.com"
-      - "C:/Program Files/dotnet/python3.exe"
-      - "C:/Program Files/dotnet/python3"
-      - "D:/Flutter SDK/flutter/bin/python3.com"
-      - "D:/Flutter SDK/flutter/bin/python3.exe"
-      - "D:/Flutter SDK/flutter/bin/python3"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.com"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.exe"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3"
-      - "D:/CMake/bin/python3.com"
-      - "D:/CMake/bin/python3.exe"
-      - "D:/CMake/bin/python3"
-      - "D:/opencv/build/x64/vc16/bin/python3.com"
-      - "D:/opencv/build/x64/vc16/bin/python3.exe"
-      - "D:/opencv/build/x64/vc16/bin/python3"
-      - "D:/Python11/Scripts/python3.com"
-      - "D:/Python11/Scripts/python3.exe"
-      - "D:/Python11/Scripts/python3"
-      - "D:/Python11/python3.com"
-      - "D:/Python11/python3.exe"
-      - "D:/Python11/python3"
-      - "D:/Python/Python313/Scripts/python3.com"
-      - "D:/Python/Python313/Scripts/python3.exe"
-      - "D:/Python/Python313/Scripts/python3"
-      - "D:/Python/Python313/python3.com"
-      - "D:/Python/Python313/python3.exe"
-      - "D:/Python/Python313/python3"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.com"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.exe"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.com"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.exe"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3"
-      - "D:/Microsoft VS Code/bin/python3.com"
-      - "D:/Microsoft VS Code/bin/python3.exe"
-      - "D:/Microsoft VS Code/bin/python3"
-      - "D:/Flutter/flutter/bin/python3.com"
-      - "D:/Flutter/flutter/bin/python3.exe"
-      - "D:/Flutter/flutter/bin/python3"
-      - "D:/Android/Sdk/platform-tools/python3.com"
-      - "D:/Android/Sdk/platform-tools/python3.exe"
-      - "D:/Android/Sdk/platform-tools/python3"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.com"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.exe"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.com"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.com"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.exe"
-      - "C:/Users/Mohamed/.dotnet/tools/python3"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.com"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.exe"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3"
-      - "D:/CLion 2025.3.2/bin/python3.com"
-      - "D:/CLion 2025.3.2/bin/python3.exe"
-      - "D:/CLion 2025.3.2/bin/python3"
-      - "D:/gcc/mingw64/bin/python3.com"
-      - "D:/gcc/mingw64/bin/python3.exe"
-      - "D:/gcc/mingw64/bin/python3"
-      - "D:/opencv/build/bin/python3.com"
-      - "D:/opencv/build/bin/python3.exe"
-      - "D:/opencv/build/bin/python3"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3"
-      - "D:/Git/usr/bin/vendor_perl/python3.com"
-      - "D:/Git/usr/bin/vendor_perl/python3.exe"
-      - "D:/Git/usr/bin/vendor_perl/python3"
-      - "D:/Git/usr/bin/core_perl/python3.com"
-      - "D:/Git/usr/bin/core_perl/python3.exe"
-      - "D:/Git/usr/bin/core_perl/python3"
-      - "C:/Program Files/bin/python3.com"
-      - "C:/Program Files/bin/python3.exe"
-      - "C:/Program Files/bin/python3"
-      - "C:/Program Files/sbin/python3.com"
-      - "C:/Program Files/sbin/python3.exe"
-      - "C:/Program Files/sbin/python3"
-      - "C:/Program Files/python3.com"
-      - "C:/Program Files/python3.exe"
-      - "C:/Program Files/python3"
-      - "C:/Program Files (x86)/bin/python3.com"
-      - "C:/Program Files (x86)/bin/python3.exe"
-      - "C:/Program Files (x86)/bin/python3"
-      - "C:/Program Files (x86)/sbin/python3.com"
-      - "C:/Program Files (x86)/sbin/python3.exe"
-      - "C:/Program Files (x86)/sbin/python3"
-      - "C:/Program Files (x86)/python3.com"
-      - "C:/Program Files (x86)/python3.exe"
-      - "C:/Program Files (x86)/python3"
-      - "D:/CMake/bin/python3.com"
-      - "D:/CMake/bin/python3.exe"
-      - "D:/CMake/bin/python3"
-      - "D:/CMake/sbin/python3.com"
-      - "D:/CMake/sbin/python3.exe"
-      - "D:/CMake/sbin/python3"
-      - "D:/CMake/python3.com"
-      - "D:/CMake/python3.exe"
-      - "D:/CMake/python3"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.com"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.exe"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.com"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.exe"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3"
-      - "C:/Program Files (x86)/MyVisionApp/python3.com"
-      - "C:/Program Files (x86)/MyVisionApp/python3.exe"
-      - "C:/Program Files (x86)/MyVisionApp/python3"
+      - "/REGISTRY-NOTFOUND/bin/python3.15.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.15"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/pypy3.com"
+      - "/REGISTRY-NOTFOUND/bin/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/pypy3"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.15"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3"
+      - "/REGISTRY-NOTFOUND/python3.15.com"
+      - "/REGISTRY-NOTFOUND/python3.15.exe"
+      - "/REGISTRY-NOTFOUND/python3.15"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/pypy3.com"
+      - "/REGISTRY-NOTFOUND/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/pypy3"
     found: false
     search_context:
       ENV{PATH}:
@@ -2133,7 +1796,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
@@ -2145,292 +1807,102 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "D:/CMake/share/cmake-4.2/Modules/FindPythonInterp.cmake:174 (find_program)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2180 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
       - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "program"
-    variable: "PYTHON_EXECUTABLE"
+    variable: "_Python_EXECUTABLE"
     description: "Path to a program."
     settings:
       SearchFramework: "NEVER"
       SearchAppBundle: "NEVER"
       CMAKE_FIND_USE_CMAKE_PATH: true
       CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "python3.12"
+      - "python3.11"
+      - "python3"
       - "python"
+      - "pypy3"
     candidate_directories:
-      - "C:/Users/Mohamed/bin/"
-      - "D:/Git/mingw64/bin/"
-      - "D:/Git/usr/local/bin/"
-      - "D:/Git/usr/bin/"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "D:/Git/cmd/"
-      - "D:/nodejs/"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
-      - "D:/Flutter SDK/flutter/bin/"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/"
-      - "D:/CMake/bin/"
-      - "D:/opencv/build/x64/vc16/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/"
+      - "D:/Python11/bin/"
       - "D:/Python11/Scripts/"
       - "D:/Python11/"
-      - "D:/Python/Python313/Scripts/"
-      - "D:/Python/Python313/"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/Microsoft VS Code/bin/"
-      - "D:/Flutter/flutter/bin/"
-      - "D:/Android/Sdk/platform-tools/"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/"
-      - "C:/Users/Mohamed/.dotnet/tools/"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/"
-      - "D:/CLion 2025.3.2/bin/"
-      - "D:/gcc/mingw64/bin/"
-      - "D:/opencv/build/bin/"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
-      - "D:/Git/usr/bin/vendor_perl/"
-      - "D:/Git/usr/bin/core_perl/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "D:/CMake/bin/"
-      - "D:/CMake/sbin/"
-      - "D:/CMake/"
-      - "C:/Program Files (x86)/MyVisionApp/bin/"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/"
-      - "C:/Program Files (x86)/MyVisionApp/"
-      - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "C:/Users/Mohamed/bin/python3.12.com"
-      - "C:/Users/Mohamed/bin/python3.12.exe"
-      - "C:/Users/Mohamed/bin/python3.12"
-      - "D:/Git/mingw64/bin/python3.12.com"
-      - "D:/Git/mingw64/bin/python3.12.exe"
-      - "D:/Git/mingw64/bin/python3.12"
-      - "D:/Git/usr/local/bin/python3.12.com"
-      - "D:/Git/usr/local/bin/python3.12.exe"
-      - "D:/Git/usr/local/bin/python3.12"
-      - "D:/Git/usr/bin/python3.12.com"
-      - "D:/Git/usr/bin/python3.12.exe"
-      - "D:/Git/usr/bin/python3.12"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12"
-      - "C:/Windows/System32/python3.12.com"
-      - "C:/Windows/System32/python3.12.exe"
-      - "C:/Windows/System32/python3.12"
-      - "C:/Windows/python3.12.com"
-      - "C:/Windows/python3.12.exe"
-      - "C:/Windows/python3.12"
-      - "C:/Windows/System32/wbem/python3.12.com"
-      - "C:/Windows/System32/wbem/python3.12.exe"
-      - "C:/Windows/System32/wbem/python3.12"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12"
-      - "C:/Windows/System32/OpenSSH/python3.12.com"
-      - "C:/Windows/System32/OpenSSH/python3.12.exe"
-      - "C:/Windows/System32/OpenSSH/python3.12"
-      - "D:/Git/cmd/python3.12.com"
-      - "D:/Git/cmd/python3.12.exe"
-      - "D:/Git/cmd/python3.12"
-      - "D:/nodejs/python3.12.com"
-      - "D:/nodejs/python3.12.exe"
-      - "D:/nodejs/python3.12"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.12.com"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.12.exe"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python3.12"
-      - "C:/Program Files/dotnet/python3.12.com"
-      - "C:/Program Files/dotnet/python3.12.exe"
-      - "C:/Program Files/dotnet/python3.12"
-      - "D:/Flutter SDK/flutter/bin/python3.12.com"
-      - "D:/Flutter SDK/flutter/bin/python3.12.exe"
-      - "D:/Flutter SDK/flutter/bin/python3.12"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.12.com"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.12.exe"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python3.12"
-      - "D:/CMake/bin/python3.12.com"
-      - "D:/CMake/bin/python3.12.exe"
-      - "D:/CMake/bin/python3.12"
-      - "D:/opencv/build/x64/vc16/bin/python3.12.com"
-      - "D:/opencv/build/x64/vc16/bin/python3.12.exe"
-      - "D:/opencv/build/x64/vc16/bin/python3.12"
-      - "D:/Python11/Scripts/python3.12.com"
-      - "D:/Python11/Scripts/python3.12.exe"
-      - "D:/Python11/Scripts/python3.12"
-      - "D:/Python11/python3.12.com"
-      - "D:/Python11/python3.12.exe"
-      - "D:/Python11/python3.12"
-      - "D:/Python/Python313/Scripts/python3.12.com"
-      - "D:/Python/Python313/Scripts/python3.12.exe"
-      - "D:/Python/Python313/Scripts/python3.12"
-      - "D:/Python/Python313/python3.12.com"
-      - "D:/Python/Python313/python3.12.exe"
-      - "D:/Python/Python313/python3.12"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.12.com"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.12.exe"
-      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/python3.12"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.12.com"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.12.exe"
-      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/python3.12"
-      - "D:/Microsoft VS Code/bin/python3.12.com"
-      - "D:/Microsoft VS Code/bin/python3.12.exe"
-      - "D:/Microsoft VS Code/bin/python3.12"
-      - "D:/Flutter/flutter/bin/python3.12.com"
-      - "D:/Flutter/flutter/bin/python3.12.exe"
-      - "D:/Flutter/flutter/bin/python3.12"
-      - "D:/Android/Sdk/platform-tools/python3.12.com"
-      - "D:/Android/Sdk/platform-tools/python3.12.exe"
-      - "D:/Android/Sdk/platform-tools/python3.12"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.12.com"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.12.exe"
-      - "D:/Android/Sdk/cmdline-tools/latest/bin/python3.12"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.12.com"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.12.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/npm/python3.12"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.12.com"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.12.exe"
-      - "C:/Users/Mohamed/.dotnet/tools/python3.12"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.12.com"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.12.exe"
-      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/python3.12"
-      - "D:/CLion 2025.3.2/bin/python3.12.com"
-      - "D:/CLion 2025.3.2/bin/python3.12.exe"
-      - "D:/CLion 2025.3.2/bin/python3.12"
-      - "D:/gcc/mingw64/bin/python3.12.com"
-      - "D:/gcc/mingw64/bin/python3.12.exe"
-      - "D:/gcc/mingw64/bin/python3.12"
-      - "D:/opencv/build/bin/python3.12.com"
-      - "D:/opencv/build/bin/python3.12.exe"
-      - "D:/opencv/build/bin/python3.12"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12.com"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12.exe"
-      - "C:/Users/Mohamed/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12"
-      - "D:/Git/usr/bin/vendor_perl/python3.12.com"
-      - "D:/Git/usr/bin/vendor_perl/python3.12.exe"
-      - "D:/Git/usr/bin/vendor_perl/python3.12"
-      - "D:/Git/usr/bin/core_perl/python3.12.com"
-      - "D:/Git/usr/bin/core_perl/python3.12.exe"
-      - "D:/Git/usr/bin/core_perl/python3.12"
-      - "C:/Program Files/bin/python3.12.com"
-      - "C:/Program Files/bin/python3.12.exe"
-      - "C:/Program Files/bin/python3.12"
-      - "C:/Program Files/sbin/python3.12.com"
-      - "C:/Program Files/sbin/python3.12.exe"
-      - "C:/Program Files/sbin/python3.12"
-      - "C:/Program Files/python3.12.com"
-      - "C:/Program Files/python3.12.exe"
-      - "C:/Program Files/python3.12"
-      - "C:/Program Files (x86)/bin/python3.12.com"
-      - "C:/Program Files (x86)/bin/python3.12.exe"
-      - "C:/Program Files (x86)/bin/python3.12"
-      - "C:/Program Files (x86)/sbin/python3.12.com"
-      - "C:/Program Files (x86)/sbin/python3.12.exe"
-      - "C:/Program Files (x86)/sbin/python3.12"
-      - "C:/Program Files (x86)/python3.12.com"
-      - "C:/Program Files (x86)/python3.12.exe"
-      - "C:/Program Files (x86)/python3.12"
-      - "D:/CMake/bin/python3.12.com"
-      - "D:/CMake/bin/python3.12.exe"
-      - "D:/CMake/bin/python3.12"
-      - "D:/CMake/sbin/python3.12.com"
-      - "D:/CMake/sbin/python3.12.exe"
-      - "D:/CMake/sbin/python3.12"
-      - "D:/CMake/python3.12.com"
-      - "D:/CMake/python3.12.exe"
-      - "D:/CMake/python3.12"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.12.com"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.12.exe"
-      - "C:/Program Files (x86)/MyVisionApp/bin/python3.12"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.12.com"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.12.exe"
-      - "C:/Program Files (x86)/MyVisionApp/sbin/python3.12"
-      - "C:/Program Files (x86)/MyVisionApp/python3.12.com"
-      - "C:/Program Files (x86)/MyVisionApp/python3.12.exe"
-      - "C:/Program Files (x86)/MyVisionApp/python3.12"
-      - "/REGISTRY-NOTFOUND/python3.12.com"
-      - "/REGISTRY-NOTFOUND/python3.12.exe"
-      - "/REGISTRY-NOTFOUND/python3.12"
-      - "C:/Users/Mohamed/bin/python.com"
-      - "C:/Users/Mohamed/bin/python.exe"
-      - "C:/Users/Mohamed/bin/python"
-      - "D:/Git/mingw64/bin/python.com"
-      - "D:/Git/mingw64/bin/python.exe"
-      - "D:/Git/mingw64/bin/python"
-      - "D:/Git/usr/local/bin/python.com"
-      - "D:/Git/usr/local/bin/python.exe"
-      - "D:/Git/usr/local/bin/python"
-      - "D:/Git/usr/bin/python.com"
-      - "D:/Git/usr/bin/python.exe"
-      - "D:/Git/usr/bin/python"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python.com"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python.exe"
-      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python"
-      - "C:/Windows/System32/python.com"
-      - "C:/Windows/System32/python.exe"
-      - "C:/Windows/System32/python"
-      - "C:/Windows/python.com"
-      - "C:/Windows/python.exe"
-      - "C:/Windows/python"
-      - "C:/Windows/System32/wbem/python.com"
-      - "C:/Windows/System32/wbem/python.exe"
-      - "C:/Windows/System32/wbem/python"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/python"
-      - "C:/Windows/System32/OpenSSH/python.com"
-      - "C:/Windows/System32/OpenSSH/python.exe"
-      - "C:/Windows/System32/OpenSSH/python"
-      - "D:/Git/cmd/python.com"
-      - "D:/Git/cmd/python.exe"
-      - "D:/Git/cmd/python"
-      - "D:/nodejs/python.com"
-      - "D:/nodejs/python.exe"
-      - "D:/nodejs/python"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python.com"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python.exe"
-      - "D:/Windows Kits/10/Windows Performance Toolkit/python"
-      - "C:/Program Files/dotnet/python.com"
-      - "C:/Program Files/dotnet/python.exe"
-      - "C:/Program Files/dotnet/python"
-      - "D:/Flutter SDK/flutter/bin/python.com"
-      - "D:/Flutter SDK/flutter/bin/python.exe"
-      - "D:/Flutter SDK/flutter/bin/python"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python.com"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python.exe"
-      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/python"
-      - "D:/CMake/bin/python.com"
-      - "D:/CMake/bin/python.exe"
-      - "D:/CMake/bin/python"
-      - "D:/opencv/build/x64/vc16/bin/python.com"
-      - "D:/opencv/build/x64/vc16/bin/python.exe"
-      - "D:/opencv/build/x64/vc16/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/python3.11.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.11"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/pypy3.com"
+      - "/REGISTRY-NOTFOUND/bin/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/pypy3"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.11"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/pypy3"
+      - "/REGISTRY-NOTFOUND/python3.11.com"
+      - "/REGISTRY-NOTFOUND/python3.11.exe"
+      - "/REGISTRY-NOTFOUND/python3.11"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/pypy3.com"
+      - "/REGISTRY-NOTFOUND/pypy3.exe"
+      - "/REGISTRY-NOTFOUND/pypy3"
+      - "D:/Python11/bin/python3.11.com"
+      - "D:/Python11/bin/python3.11.exe"
+      - "D:/Python11/bin/python3.11"
+      - "D:/Python11/bin/python3.com"
+      - "D:/Python11/bin/python3.exe"
+      - "D:/Python11/bin/python3"
+      - "D:/Python11/bin/python.com"
+      - "D:/Python11/bin/python.exe"
+      - "D:/Python11/bin/python"
+      - "D:/Python11/bin/pypy3.com"
+      - "D:/Python11/bin/pypy3.exe"
+      - "D:/Python11/bin/pypy3"
+      - "D:/Python11/Scripts/python3.11.com"
+      - "D:/Python11/Scripts/python3.11.exe"
+      - "D:/Python11/Scripts/python3.11"
+      - "D:/Python11/Scripts/python3.com"
+      - "D:/Python11/Scripts/python3.exe"
+      - "D:/Python11/Scripts/python3"
       - "D:/Python11/Scripts/python.com"
       - "D:/Python11/Scripts/python.exe"
       - "D:/Python11/Scripts/python"
+      - "D:/Python11/Scripts/pypy3.com"
+      - "D:/Python11/Scripts/pypy3.exe"
+      - "D:/Python11/Scripts/pypy3"
+      - "D:/Python11/python3.11.com"
+      - "D:/Python11/python3.11.exe"
+      - "D:/Python11/python3.11"
+      - "D:/Python11/python3.com"
+      - "D:/Python11/python3.exe"
+      - "D:/Python11/python3"
       - "D:/Python11/python.com"
     found: "D:/Python11/python.exe"
     search_context:
@@ -2477,7 +1949,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
@@ -2487,341 +1958,42 @@ events:
         - "D:/CMake"
         - "C:/Program Files (x86)/MyVisionApp"
   -
-    kind: "try_compile-v1"
+    kind: "find-v1"
     backtrace:
-      - "D:/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "D:/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "D:/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:332 (check_cxx_compiler_flag)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:404 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:438 (_pybind11_generate_lto)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
       - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
-      - "CMakeLists.txt:5 (find_package)"
-    checks:
-      - "Performing Test HAS_MSVC_GL_LTCG"
-    directories:
-      source: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-qqfprc"
-      binary: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-qqfprc"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: ""
-    buildResult:
-      variable: "HAS_MSVC_GL_LTCG"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-qqfprc'
-        
-        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_602ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 24-Feb-26 1:36:41 PM.
-        
-        Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\cmTC_602ba.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\Debug\\".
-          Creating directory "cmTC_602ba.dir\\Debug\\cmTC_602ba.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_602ba.dir\\Debug\\cmTC_602ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_602ba.dir\\Debug\\cmTC_602ba.tlog\\unsuccessfulbuild".
-        ClCompile:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_602ba.dir\\Debug\\\\" /Fd"cmTC_602ba.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_602ba.dir\\Debug\\\\" /Fd"cmTC_602ba.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\src.cxx"
-          src.cxx
-        Link:
-          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\Debug\\cmTC_602ba.exe" /INCREMENTAL /ILK:"cmTC_602ba.dir\\Debug\\cmTC_602ba.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-qqfprc/Debug/cmTC_602ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-qqfprc/Debug/cmTC_602ba.lib" /MACHINE:X64  /machine:x64 cmTC_602ba.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\cmTC_602ba.vcxproj]
-          Generating code
-          Finished generating code
-          cmTC_602ba.vcxproj -> D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\Debug\\cmTC_602ba.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_602ba.dir\\Debug\\cmTC_602ba.tlog\\unsuccessfulbuild".
-          Touching "cmTC_602ba.dir\\Debug\\cmTC_602ba.tlog\\cmTC_602ba.lastbuildstate".
-        Done Building Project "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\cmTC_602ba.vcxproj" (default targets).
-        
-        Build succeeded.
-        
-        "D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\cmTC_602ba.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Vs_Projects\\Computer-Vision-Tasks\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqfprc\\cmTC_602ba.vcxproj]
-        
-            1 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.90
-        
-      exitCode: 0
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:6 (find_package)"
-    name: "OpenCV"
-    components:
-      -
-        name: "core"
-        required: true
-        found: true
-      -
-        name: "imgproc"
-        required: true
-        found: true
-      -
-        name: "imgcodecs"
-        required: true
-        found: true
-    configs:
-      -
-        filename: "OpenCVConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "opencv-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
     settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "OpenCV"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/mingw64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/mingw64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/usr/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/usr/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/cmd/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Git/cmd/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/nodejs/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/nodejs/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Windows Kits/10/Windows Performance Toolkit/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Windows Kits/10/Windows Performance Toolkit/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter SDK/flutter/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter SDK/flutter/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter SDK/flutter/bin/cache/dart-sdk/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter SDK/flutter/bin/cache/dart-sdk/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CMake/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CMake/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/opencv/build/x64/vc16/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/opencv/build/x64/vc16/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Python11/Scripts/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Python11/Scripts/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Python11/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Python11/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Microsoft VS Code/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Microsoft VS Code/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter/flutter/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Flutter/flutter/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CLion 2025.3.2/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CLion 2025.3.2/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/gcc/mingw64/OpenCVConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/gcc/mingw64/opencv-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "D:/opencv/build/OpenCVConfig.cmake"
-      mode: "config"
-      version: "4.12.0"
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.11_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "D:/Python11/"
+    searched_directories:
+      - "D:/Python11/python3.11_d.com"
+      - "D:/Python11/python3.11_d.exe"
+      - "D:/Python11/python3.11_d"
+      - "D:/Python11/python3_d.com"
+      - "D:/Python11/python3_d.exe"
+      - "D:/Python11/python3_d"
+      - "D:/Python11/python_d.com"
+      - "D:/Python11/python_d.exe"
+      - "D:/Python11/python_d"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Users\\Mohamed\\bin"
@@ -2866,7 +2038,6 @@ events:
         - "D:\\CMake\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
         - "D:\\opencv\\build\\x64\\vc16\\bin"
-        - "C:\\Users\\Mohamed\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "D:\\Git\\usr\\bin\\vendor_perl"
         - "D:\\Git\\usr\\bin\\core_perl"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
@@ -2875,4 +2046,506 @@ events:
         - "C:/Program Files (x86)"
         - "D:/CMake"
         - "C:/Program Files (x86)/MyVisionApp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3201 (find_library)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "_Python_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python311"
+      - "python3.11"
+    candidate_directories:
+      - "D:/Python11/lib/"
+      - "D:/Python11/libs/"
+      - "D:/Python11/lib/python3.11/config-3.11/"
+      - "D:/Python11/"
+    searched_directories:
+      - "D:/Python11/lib/"
+      - "D:/Python11/lib/"
+    found: "D:/Python11/libs/python311.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Mohamed\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\Mohamed\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "D:\\Git\\cmd"
+        - "D:\\nodejs"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "D:\\Flutter SDK\\flutter\\bin"
+        - "D:\\Flutter SDK\\flutter\\bin\\cache\\dart-sdk\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Python11\\Scripts"
+        - "D:\\Python11"
+        - "D:\\Python\\Python313\\Scripts"
+        - "D:\\Python\\Python313"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\Flutter\\flutter\\bin"
+        - "D:\\Android\\Sdk\\platform-tools"
+        - "D:\\Android\\Sdk\\cmdline-tools\\latest\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Mohamed\\.dotnet\\tools"
+        - "D:\\Downloads\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\bin"
+        - "D:\\CLion 2025.3.2\\bin"
+        - "D:\\gcc\\mingw64\\bin"
+        - "D:\\opencv\\build\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MyVisionApp/bin"
+        - "D:/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3389 (find_library)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "_Python_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python311_d"
+    candidate_directories:
+      - "D:/Python11/libs/"
+    searched_directories:
+      - "D:/Python11/libs/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Mohamed\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\Mohamed\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "D:\\Git\\cmd"
+        - "D:\\nodejs"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "D:\\Flutter SDK\\flutter\\bin"
+        - "D:\\Flutter SDK\\flutter\\bin\\cache\\dart-sdk\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Python11\\Scripts"
+        - "D:\\Python11"
+        - "D:\\Python\\Python313\\Scripts"
+        - "D:\\Python\\Python313"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\Flutter\\flutter\\bin"
+        - "D:\\Android\\Sdk\\platform-tools"
+        - "D:\\Android\\Sdk\\cmdline-tools\\latest\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Mohamed\\.dotnet\\tools"
+        - "D:\\Downloads\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\bin"
+        - "D:\\CLion 2025.3.2\\bin"
+        - "D:\\gcc\\mingw64\\bin"
+        - "D:\\opencv\\build\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MyVisionApp/bin"
+        - "D:/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:1406 (find_library)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3407 (_python_find_runtime_library)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "_Python_RUNTIME_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python311"
+      - "python3.11"
+    candidate_directories:
+      - "D:/Python11/libs/bin/"
+      - "D:/Python11/libs/"
+      - "D:/Python11/bin/"
+      - "D:/Python11/"
+      - "C:/Users/Mohamed/bin/bin/"
+      - "C:/Users/Mohamed/bin/"
+      - "D:/Git/mingw64/bin/bin/"
+      - "D:/Git/mingw64/bin/"
+      - "D:/Git/usr/local/bin/bin/"
+      - "D:/Git/usr/local/bin/"
+      - "D:/Git/usr/bin/bin/"
+      - "D:/Git/usr/bin/"
+      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bin/"
+      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bin/"
+      - "C:/Users/Mohamed/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Windows/System32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/bin/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Git/cmd/bin/"
+      - "D:/Git/cmd/"
+      - "D:/nodejs/bin/"
+      - "D:/nodejs/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Flutter SDK/flutter/bin/bin/"
+      - "D:/Flutter SDK/flutter/bin/"
+      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/bin/"
+      - "D:/Flutter SDK/flutter/bin/cache/dart-sdk/bin/"
+      - "D:/CMake/bin/bin/"
+      - "D:/CMake/bin/"
+      - "D:/opencv/build/x64/vc16/bin/bin/"
+      - "D:/opencv/build/x64/vc16/bin/"
+      - "D:/Python11/Scripts/bin/"
+      - "D:/Python11/Scripts/"
+      - "D:/Python/Python313/Scripts/bin/"
+      - "D:/Python/Python313/Scripts/"
+      - "D:/Python/Python313/bin/"
+      - "D:/Python/Python313/"
+      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/bin/"
+      - "C:/Users/Mohamed/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/bin/"
+      - "C:/Users/Mohamed/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Microsoft VS Code/bin/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "D:/Flutter/flutter/bin/bin/"
+      - "D:/Flutter/flutter/bin/"
+      - "D:/Android/Sdk/platform-tools/bin/"
+      - "D:/Android/Sdk/platform-tools/"
+      - "D:/Android/Sdk/cmdline-tools/latest/bin/bin/"
+      - "D:/Android/Sdk/cmdline-tools/latest/bin/"
+      - "C:/Users/Mohamed/AppData/Roaming/npm/bin/"
+      - "C:/Users/Mohamed/AppData/Roaming/npm/"
+      - "C:/Users/Mohamed/.dotnet/tools/bin/"
+      - "C:/Users/Mohamed/.dotnet/tools/"
+      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/bin/"
+      - "D:/Downloads/ffmpeg-2026-02-02-git-7e9fe341df-full_build/ffmpeg-2026-02-02-git-7e9fe341df-full_build/bin/"
+      - "D:/CLion 2025.3.2/bin/bin/"
+      - "D:/CLion 2025.3.2/bin/"
+      - "D:/gcc/mingw64/bin/bin/"
+      - "D:/gcc/mingw64/bin/"
+      - "D:/opencv/build/bin/bin/"
+      - "D:/opencv/build/bin/"
+      - "D:/Git/usr/bin/vendor_perl/bin/"
+      - "D:/Git/usr/bin/vendor_perl/"
+      - "D:/Git/usr/bin/core_perl/bin/"
+      - "D:/Git/usr/bin/core_perl/"
+      - "C:/Program Files/lib/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/bin/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/"
+      - "D:/CMake/lib/bin/"
+      - "D:/CMake/lib/"
+      - "D:/CMake/bin/"
+      - "D:/CMake/"
+      - "C:/Program Files (x86)/MyVisionApp/lib/bin/"
+      - "C:/Program Files (x86)/MyVisionApp/lib/"
+      - "C:/Program Files (x86)/MyVisionApp/bin/"
+      - "C:/Program Files (x86)/MyVisionApp/"
+      - "C:/Program Files (x86)/MyVisionApp/bin/bin/"
+      - "C:/Program Files (x86)/MyVisionApp/bin/"
+      - "/bin/bin/"
+      - "/bin/"
+    searched_directories:
+      - "D:/Python11/libs/bin/"
+      - "D:/Python11/libs/bin/"
+      - "D:/Python11/libs/"
+      - "D:/Python11/libs/"
+      - "D:/Python11/bin/"
+      - "D:/Python11/bin/"
+    found: "D:/Python11/python311.dll"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Mohamed\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\Mohamed\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "D:\\Git\\cmd"
+        - "D:\\nodejs"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "D:\\Flutter SDK\\flutter\\bin"
+        - "D:\\Flutter SDK\\flutter\\bin\\cache\\dart-sdk\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Python11\\Scripts"
+        - "D:\\Python11"
+        - "D:\\Python\\Python313\\Scripts"
+        - "D:\\Python\\Python313"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\Flutter\\flutter\\bin"
+        - "D:\\Android\\Sdk\\platform-tools"
+        - "D:\\Android\\Sdk\\cmdline-tools\\latest\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Mohamed\\.dotnet\\tools"
+        - "D:\\Downloads\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\bin"
+        - "D:\\CLion 2025.3.2\\bin"
+        - "D:\\gcc\\mingw64\\bin"
+        - "D:\\opencv\\build\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/MyVisionApp/bin"
+        - "D:/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3716 (find_path)"
+      - "D:/CMake/share/cmake-4.2/Modules/FindPython.cmake:700 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11NewTools.cmake:54 (find_package)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:215 (include)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "path"
+    variable: "_Python_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Python.h"
+      - "PyPy.h"
+      - "pypy_decl.h"
+    candidate_directories:
+      - "D:/Python11/Include/"
+    found: "D:/Python11/Include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Mohamed\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\local\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "D:\\Git\\mingw64\\bin"
+        - "D:\\Git\\usr\\bin"
+        - "C:\\Users\\Mohamed\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "D:\\Git\\cmd"
+        - "D:\\nodejs"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\dotnet"
+        - "D:\\Flutter SDK\\flutter\\bin"
+        - "D:\\Flutter SDK\\flutter\\bin\\cache\\dart-sdk\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Python11\\Scripts"
+        - "D:\\Python11"
+        - "D:\\Python\\Python313\\Scripts"
+        - "D:\\Python\\Python313"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Programs\\Python\\Launcher"
+        - "C:\\Users\\Mohamed\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "D:\\Flutter\\flutter\\bin"
+        - "D:\\Android\\Sdk\\platform-tools"
+        - "D:\\Android\\Sdk\\cmdline-tools\\latest\\bin"
+        - "C:\\Users\\Mohamed\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Mohamed\\.dotnet\\tools"
+        - "D:\\Downloads\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\ffmpeg-2026-02-02-git-7e9fe341df-full_build\\bin"
+        - "D:\\CLion 2025.3.2\\bin"
+        - "D:\\gcc\\mingw64\\bin"
+        - "D:\\opencv\\build\\bin"
+        - "D:\\CMake\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\opencv\\build\\x64\\vc16\\bin"
+        - "D:\\Git\\usr\\bin\\vendor_perl"
+        - "D:\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MyVisionApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/CMake"
+        - "C:/Program Files (x86)/MyVisionApp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:332 (check_cxx_compiler_flag)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:404 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:438 (_pybind11_generate_lto)"
+      - "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-foqiyi"
+      binary: "D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-foqiyi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-foqiyi'
+        
+        Run Build Command(s): "D:/Community Visual Studio 2022/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97a65.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 24-Feb-26 4:55:19 PM.
+        
+        Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\cmTC_97a65.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\Debug\\".
+          Creating directory "cmTC_97a65.dir\\Debug\\cmTC_97a65.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_97a65.dir\\Debug\\cmTC_97a65.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_97a65.dir\\Debug\\cmTC_97a65.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_97a65.dir\\Debug\\\\" /Fd"cmTC_97a65.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_97a65.dir\\Debug\\\\" /Fd"cmTC_97a65.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\src.cxx"
+          src.cxx
+        Link:
+          D:\\Community Visual Studio 2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\Debug\\cmTC_97a65.exe" /INCREMENTAL /ILK:"cmTC_97a65.dir\\Debug\\cmTC_97a65.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-foqiyi/Debug/cmTC_97a65.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/CMakeScratch/TryCompile-foqiyi/Debug/cmTC_97a65.lib" /MACHINE:X64  /machine:x64 cmTC_97a65.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\cmTC_97a65.vcxproj]
+          Generating code
+          Finished generating code
+          cmTC_97a65.vcxproj -> D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\Debug\\cmTC_97a65.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_97a65.dir\\Debug\\cmTC_97a65.tlog\\unsuccessfulbuild".
+          Touching "cmTC_97a65.dir\\Debug\\cmTC_97a65.tlog\\cmTC_97a65.lastbuildstate".
+        Done Building Project "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\cmTC_97a65.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\cmTC_97a65.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [D:\\Downloads\\Image-Filter-hB\\Image-Filter-App\\build\\CMakeFiles\\CMakeScratch\\TryCompile-foqiyi\\cmTC_97a65.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.73
+        
+      exitCode: 0
 ...

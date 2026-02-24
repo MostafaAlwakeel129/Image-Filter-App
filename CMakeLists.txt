@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.12)
 project(MyVisionApp)
+cmake_policy(SET CMP0148 NEW)
 
+set(PYBIND11_FINDPYTHON ON)
+# Path to your OpenCV installation
+set(OpenCV_DIR "D:/opencv/build")
 set(pybind11_DIR "D:/Python11/Lib/site-packages/pybind11/share/cmake/pybind11")
 find_package(pybind11 REQUIRED)
 find_package(OpenCV REQUIRED COMPONENTS core imgproc imgcodecs)
