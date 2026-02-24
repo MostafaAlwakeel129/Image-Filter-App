@@ -1,0 +1,3 @@
+D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/cv_backend.dir
+D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/ALL_BUILD.dir
+D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/CMakeFiles/ZERO_CHECK.dir

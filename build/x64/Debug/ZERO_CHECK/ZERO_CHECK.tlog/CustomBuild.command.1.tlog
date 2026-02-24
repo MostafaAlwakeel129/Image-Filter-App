@@ -1,0 +1,10 @@
+^D:\VS_PROJECTS\COMPUTER-VISION-TASKS\IMAGE-FILTER-APP\BUILD\CMAKEFILES\7CA14EECF508A17AD2DD68B0672CB92D\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App -BD:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Vs_Projects/Computer-Vision-Tasks/Image-Filter-App/build/MyVisionApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
