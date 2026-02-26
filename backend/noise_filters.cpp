@@ -1,28 +1,5 @@
-#include <opencv2/opencv.hpp>
-#include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
-#include <vector>
+#include "image_utils.hpp"
 #include <random>
-
-namespace py = pybind11;
-
-// ---------- helpers ----------------------------------------------------------
-
-// Decode py::bytes -> cv::Mat (BGR)
-static cv::Mat decode_image(const py::bytes &data) {
-    std::string raw = data;
-    std::vector<uchar> buf(raw.begin(), raw.end());
-    cv::Mat img = cv::imdecode(buf, cv::IMREAD_COLOR);
-    if (img.empty()) throw std::runtime_error("Failed to decode image");
-    return img;
-}
-
-// Encode cv::Mat (BGR) -> py::bytes (PNG)
-static py::bytes encode_image(const cv::Mat &img) {
-    std::vector<uchar> buf;
-    cv::imencode(".png", img, buf);
-    return py::bytes(reinterpret_cast<const char*>(buf.data()), buf.size());
-}
 
 // ---------- noise addition ---------------------------------------------------
 

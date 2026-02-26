@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTabWidget
-
 from tab_noise_filters import NoiseTab # import your tab here
+from tab_edge_freq import EdgeTab
 
 
 class MainWindow(QMainWindow):
@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.tabs)
 
         self.tabs.addTab(NoiseTab(), "1. Noise & Filters") # then add it to the intialization here
+        self.tabs.addTab(EdgeTab(), "2. Edge Detection")
 
 
 if __name__ == "__main__":

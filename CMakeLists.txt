@@ -9,3 +9,5 @@ file(GLOB SRC_FILES "backend/*.cpp")
 pybind11_add_module(cv_backend ${SRC_FILES})
 
 target_link_libraries(cv_backend PRIVATE ${OpenCV_LIBS})
+
+target_include_directories(cv_backend PRIVATE Helpers)

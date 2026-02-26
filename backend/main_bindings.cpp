@@ -13,6 +13,11 @@ py::bytes apply_average_filter(const py::bytes &data, int kernel_size);
 py::bytes apply_gaussian_filter(const py::bytes &data, int kernel_size);
 py::bytes apply_median_filter(const py::bytes &data, int kernel_size);
 
+// Edge Detection
+py::bytes apply_canny(const py::bytes &data, double t_low, double t_high, int kernel_size);
+py::bytes apply_sobel(const py::bytes &data, int direction);
+py::bytes apply_prewitt(const py::bytes &data, int direction);
+py::bytes apply_roberts(const py::bytes &data, int direction);
 
 // --- BINDINGS ---
 PYBIND11_MODULE(cv_backend, m) {
@@ -46,4 +51,25 @@ PYBIND11_MODULE(cv_backend, m) {
     m.def("apply_median_filter", &apply_median_filter,
           "Apply median filter. kernel_size must be odd, in [3, 21]",
           py::arg("data"), py::arg("kernel_size"));
+
+    // --- Edge Detection ---
+    m.def("apply_canny", &apply_canny,
+          "Canny edge detection. "
+          "t_low in [0, 100], t_high in [t_low, 300], kernel_size odd in [3, 7]",
+          py::arg("data"), py::arg("t_low"), py::arg("t_high"), py::arg("kernel_size"));
+    
+    m.def("apply_sobel", &apply_sobel,
+          "Sobel edge detection (from scratch). "
+          "direction: 0 = X only, 1 = Y only, 2 = Both (magnitude)",
+          py::arg("data"), py::arg("direction"));
+
+    m.def("apply_prewitt", &apply_prewitt,
+          "Prewitt edge detection (from scratch). "
+          "direction: 0 = X only, 1 = Y only, 2 = Both (magnitude)",
+          py::arg("data"), py::arg("direction"));
+          
+    m.def("apply_roberts", &apply_roberts,
+          "Roberts edge detection (from scratch, 2x2 kernels). "
+          "direction: 0 = X only, 1 = Y only, 2 = Both (magnitude)",
+          py::arg("data"), py::arg("direction"));
 }
