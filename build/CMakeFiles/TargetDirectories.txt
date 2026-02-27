@@ -1,3 +1,0 @@
-D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/cv_backend.dir
-D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/ALL_BUILD.dir
-D:/Downloads/Image-Filter-hB/Image-Filter-App/build/CMakeFiles/ZERO_CHECK.dir
