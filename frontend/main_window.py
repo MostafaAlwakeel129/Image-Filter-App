@@ -1,7 +1,9 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTabWidget
-from tab_noise_filters import NoiseTab # import your tab here
+from tab_noise_filters import NoiseTab
 from tab_edge_freq import EdgeTab
+from tab_hist_contrast import HistogramContrastTab
+from tab_color_hybrid import FrequencyFilterTab, HybridImageTab
 
 
 class MainWindow(QMainWindow):
@@ -13,8 +15,11 @@ class MainWindow(QMainWindow):
         self.tabs = QTabWidget()
         self.setCentralWidget(self.tabs)
 
-        self.tabs.addTab(NoiseTab(), "1. Noise & Filters") # then add it to the intialization here
-        self.tabs.addTab(EdgeTab(), "2. Edge Detection")
+        self.tabs.addTab(NoiseTab(),             "1. Noise & Filters")
+        self.tabs.addTab(EdgeTab(),              "2. Edge Detection")
+        self.tabs.addTab(HistogramContrastTab(), "3. Histogram & Contrast")
+        self.tabs.addTab(FrequencyFilterTab(),   "4. Frequency Domain Filters")
+        self.tabs.addTab(HybridImageTab(),       "5. Hybrid Images")
 
 
 if __name__ == "__main__":
