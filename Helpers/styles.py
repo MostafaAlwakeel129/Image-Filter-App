@@ -259,9 +259,9 @@ class BaseImageTab(QWidget):
     Subclasses must call super().__init__() and may override _on_image_loaded().
     """
 
-    # Override in subclass to change the image-panel minimum size
-    IMAGE_MIN_W = 400
-    IMAGE_MIN_H = 300
+    # Fixed pixel dimensions for both image panels — subclasses can override
+    IMAGE_W = 380
+    IMAGE_H = 280
 
     def __init__(self):
         super().__init__()
@@ -287,7 +287,8 @@ class BaseImageTab(QWidget):
         orig_layout = QVBoxLayout(orig_box)
         self._orig_label = QLabel("No image loaded")
         self._orig_label.setAlignment(Qt.AlignCenter)
-        self._orig_label.setMinimumSize(self.IMAGE_MIN_W, self.IMAGE_MIN_H)
+        self._orig_label.setFixedSize(self.IMAGE_W, self.IMAGE_H)
+        self._orig_label.setScaledContents(False)
         self._orig_label.setStyleSheet(
             "background-color: white; border: 2px solid #87ceeb; "
             "border-radius: 6px; color: #aaaaaa; font-size: 14px;"
@@ -299,7 +300,8 @@ class BaseImageTab(QWidget):
         proc_layout = QVBoxLayout(proc_box)
         self._proc_label = QLabel("No image loaded")
         self._proc_label.setAlignment(Qt.AlignCenter)
-        self._proc_label.setMinimumSize(self.IMAGE_MIN_W, self.IMAGE_MIN_H)
+        self._proc_label.setFixedSize(self.IMAGE_W, self.IMAGE_H)
+        self._proc_label.setScaledContents(False)
         self._proc_label.setStyleSheet(
             "background-color: white; border: 2px solid #98d8c8; "
             "border-radius: 6px; color: #aaaaaa; font-size: 14px;"
@@ -321,8 +323,8 @@ class BaseImageTab(QWidget):
             self._set_status("❌  Failed to load image.", error=True)
             return
         self._original_bytes = mat_to_bytes(mat)
-        set_label_image(self._orig_label, mat)
-        set_label_image(self._proc_label, mat)
+        set_label_image(self._orig_label, mat, max_w=self.IMAGE_W, max_h=self.IMAGE_H)
+        set_label_image(self._proc_label, mat, max_w=self.IMAGE_W, max_h=self.IMAGE_H)
         self._set_status(f"✅  Loaded: {fname}")
         self._on_image_loaded(mat)
 
