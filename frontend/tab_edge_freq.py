@@ -139,12 +139,11 @@ class EdgeTab(BaseImageTab):
     def _on_method_changed(self, method: str):
         self._canny_params.setVisible(method == "Canny")
         self._sobel_params.setVisible(method in ("Sobel", "Prewitt", "Roberts"))
-        self._original_bytes = None
-        self._orig_label.clear()
-        self._orig_label.setText("No image loaded")
-        self._proc_label.clear()
-        self._proc_label.setText("No image loaded")
-        self._set_status("Open an image to get started.")
+        if self._original_bytes:
+            self._set_status(f"Method changed to {method}. Click Apply.")
+        else:
+            self._set_status("Open an image to get started.")
+
 
     def _enforce_odd_kernel(self, val: int):
         if val % 2 == 0:
