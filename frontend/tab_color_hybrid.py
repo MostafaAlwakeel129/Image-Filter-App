@@ -146,11 +146,6 @@ class FrequencyFilterTab(QWidget):
         self.filter_combo.currentTextChanged.connect(self._on_filter_changed)
         layout.addWidget(self.filter_combo)
 
-        self.btn_apply = QPushButton("▶  Apply Filter")
-        self.btn_apply.clicked.connect(self._apply_filter)
-        self.btn_apply.setEnabled(False)
-        layout.addWidget(self.btn_apply)
-
         self.btn_reset = QPushButton("↺  Reset")
         self.btn_reset.clicked.connect(self._reset)
         self.btn_reset.setEnabled(False)
@@ -196,7 +191,6 @@ class FrequencyFilterTab(QWidget):
         self.image_bytes = mat_to_bytes(mat)
         self.original_display.set_image(self.image_bytes)
         self.spectrum_display.set_image(cv_backend.get_spectrum(self.image_bytes))
-        self.btn_apply.setEnabled(True)
         self.btn_reset.setEnabled(True)
         set_status(self._status, f"✅  Loaded: {fname}")
         self._apply_filter()
@@ -215,14 +209,25 @@ class FrequencyFilterTab(QWidget):
         try:
             filter_key = self._FILTER_MAP[self.filter_combo.currentText()]
             cutoff = float(self.cutoff_slider.value())
+
             if filter_key == "lowpass":
-                self.filtered_bytes = cv_backend.lowpass_filter(self.image_bytes, cutoff)
+                self.filtered_bytes = cv_backend.lowpass_filter(
+                    self.image_bytes, cutoff
+                )
             else:
-                self.filtered_bytes = cv_backend.highpass_filter(self.image_bytes, cutoff)
+                self.filtered_bytes = cv_backend.highpass_filter(
+                    self.image_bytes, cutoff
+                )
+
+            # ✅ update filtered image
             self.filtered_display.set_image(self.filtered_bytes)
+
+            # ✅ update spectrum OF FILTERED IMAGE
+            spectrum = cv_backend.get_spectrum(self.filtered_bytes)
+            self.spectrum_display.set_image(spectrum)
+
         except Exception as e:
             set_status(self._status, f"❌  Error: {e}", error=True)
-
     def _reset(self):
         if not self.image_bytes:
             return

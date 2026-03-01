@@ -193,13 +193,25 @@ class HistogramContrastTab(QWidget):
         return 'color'
 
     def _update_histogram_selector(self):
+        """Rebuild histogram type combo. Grayscale option is only shown once
+        the image is actually grayscale (i.e. after conversion or on load of a
+        gray image). While the image is still color, only the RGB options are
+        available."""
         self.hist_type.blockSignals(True)
         self.hist_type.clear()
         if self.is_color:
-            self.hist_type.addItems(["Grayscale", "RGB Combined", "RGB Separate"])
+            # Color image: no grayscale histogram yet
+            self.hist_type.addItems(["RGB Combined", "RGB Separate"])
         else:
+            # Grayscale image (either loaded as gray or converted)
             self.hist_type.addItems(["Grayscale"])
         self.hist_type.blockSignals(False)
+
+    def _set_gray_ops_enabled(self, enabled: bool):
+        """Enable or disable operations that require a grayscale image.
+        CDF/PDF checkboxes are intentionally excluded — they work for all histogram types."""
+        self.equalize_gray_btn.setEnabled(enabled)
+        self.normalize_gray_btn.setEnabled(enabled)
 
     # -----------------------------------------------------------------------
     # Slots
@@ -222,13 +234,20 @@ class HistogramContrastTab(QWidget):
 
             set_label_image(self.image_label, mat, max_w=480, max_h=320)
 
+            # Convert-to-gray only makes sense for color images
             self.gray_btn.setEnabled(self.is_color)
-            self.equalize_gray_btn.setEnabled(True)
+
+            # RGB operations only for color images
             self.equalize_rgb_btn.setEnabled(self.is_color)
-            self.normalize_gray_btn.setEnabled(True)
             self.normalize_rgb_btn.setEnabled(self.is_color)
+
+            # Gray operations: enabled only when the image is already grayscale
+            self._set_gray_ops_enabled(not self.is_color)
+
             self.reset_btn.setEnabled(True)
             self.update_stats_btn.setEnabled(True)
+            self.show_cdf.setEnabled(True)
+            self.show_pdf.setEnabled(True)
 
             self._update_histogram_selector()
             self.update_histogram()
@@ -244,9 +263,15 @@ class HistogramContrastTab(QWidget):
             self.current_bytes = cv_backend.color_to_gray(self.current_bytes)
             self.is_color = False
             self.image_mode_label.setText("⚫ Converted to Grayscale")
+
+            # Disable color-only controls
             self.gray_btn.setEnabled(False)
             self.equalize_rgb_btn.setEnabled(False)
             self.normalize_rgb_btn.setEnabled(False)
+
+            # Now unlock gray operations
+            self._set_gray_ops_enabled(True)
+
             self._update_histogram_selector()
             set_label_image(self.image_label, bytes_to_mat(self.current_bytes), max_w=480, max_h=320)
             self.update_histogram()
@@ -288,9 +313,14 @@ class HistogramContrastTab(QWidget):
         self.current_bytes = self.original_bytes
         mat = bytes_to_mat(self.original_bytes)
         self.is_color = (self._detect_image_mode(mat) == 'color')
+
         self.gray_btn.setEnabled(self.is_color)
         self.equalize_rgb_btn.setEnabled(self.is_color)
         self.normalize_rgb_btn.setEnabled(self.is_color)
+
+        # Gray ops only if we're back to a grayscale original
+        self._set_gray_ops_enabled(not self.is_color)
+
         self.image_mode_label.setText("🎨 Color (RGB)" if self.is_color else "⚫ Grayscale")
         self._update_histogram_selector()
         set_label_image(self.image_label, mat, max_w=480, max_h=320)
