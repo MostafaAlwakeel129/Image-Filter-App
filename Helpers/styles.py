@@ -11,6 +11,7 @@ from PyQt5.QtGui import QFontDatabase, QFont
 import cv2
 
 from Helpers.image_utils import mat_to_bytes, bytes_to_mat, set_label_image, set_status
+from Helpers.undo_manager import UndoManager
 
 # Image file-filter used in every open dialog
 _IMAGE_FILTER = "Images (*.png *.jpg *.jpeg *.bmp *.tiff *.tif *.webp)"
@@ -266,7 +267,51 @@ class BaseImageTab(QWidget):
     def __init__(self):
         super().__init__()
         self._original_bytes: bytes | None = None
+        self._current_proc_bytes: bytes | None = None  # tracks what's shown in _proc_label
+        self._current_status_text: str = "Open an image to get started."
         self.setStyleSheet(COMMON_QSS)
+
+    # ------------------------------------------------------------------
+    # Undo helpers
+    # ------------------------------------------------------------------
+
+    def _snapshot(self):
+        """
+        Save the current processed-image state to the global UndoManager
+        BEFORE applying a new operation.  Call this at the top of every
+        apply method that changes _proc_label.
+        """
+        proc_bytes   = self._current_proc_bytes
+        status_text  = self._current_status_text
+        # Capture self so the lambda works correctly across tabs
+        tab = self
+
+        def _restore(b, s):
+            if b is not None:
+                from Helpers.image_utils import bytes_to_mat
+                set_label_image(tab._proc_label, bytes_to_mat(b),
+                                max_w=tab.IMAGE_W, max_h=tab.IMAGE_H)
+            else:
+                tab._proc_label.clear()
+                tab._proc_label.setText("No image loaded")
+            tab._current_proc_bytes = b
+            set_status(tab._status, s)
+            tab._current_status_text = s
+
+        UndoManager.push(proc_bytes, status_text, _restore)
+
+    def _update_proc(self, result_bytes: bytes, status_msg: str, error: bool = False):
+        """
+        Convenience: snapshot → update displayed image → update status.
+        Tabs can call this instead of manually calling set_label_image +
+        _set_status so undo is wired automatically.
+        """
+        self._snapshot()
+        from Helpers.image_utils import bytes_to_mat
+        set_label_image(self._proc_label, bytes_to_mat(result_bytes),
+                        max_w=self.IMAGE_W, max_h=self.IMAGE_H)
+        self._current_proc_bytes = result_bytes
+        self._set_status(status_msg, error)
 
     # ------------------------------------------------------------------
     # Image row
@@ -323,9 +368,13 @@ class BaseImageTab(QWidget):
             self._set_status("❌  Failed to load image.", error=True)
             return
         self._original_bytes = mat_to_bytes(mat)
+        self._current_proc_bytes = self._original_bytes
+        UndoManager.clear()                                   # fresh slate for new image
         set_label_image(self._orig_label, mat, max_w=self.IMAGE_W, max_h=self.IMAGE_H)
         set_label_image(self._proc_label, mat, max_w=self.IMAGE_W, max_h=self.IMAGE_H)
-        self._set_status(f"✅  Loaded: {fname}")
+        status = f"✅  Loaded: {fname}"
+        self._set_status(status)
+        self._current_status_text = status
         self._on_image_loaded(mat)
 
     def _on_image_loaded(self, mat):
@@ -337,4 +386,5 @@ class BaseImageTab(QWidget):
     # ------------------------------------------------------------------
 
     def _set_status(self, msg: str, error: bool = False):
+        self._current_status_text = msg
         set_status(self._status, msg, error)
