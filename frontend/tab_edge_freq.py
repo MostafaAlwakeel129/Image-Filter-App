@@ -139,19 +139,18 @@ class EdgeTab(BaseImageTab):
     def _on_method_changed(self, method: str):
         self._canny_params.setVisible(method == "Canny")
         self._sobel_params.setVisible(method in ("Sobel", "Prewitt", "Roberts"))
-        
-        # --- UI FIX: Dynamically change radio button labels for Roberts ---
+
+        # Dynamically change radio button labels for Roberts
         if method == "Roberts":
             self._sobel_x.setText("Diag +45°")
             self._sobel_y.setText("Diag -45°")
-            self._sobel_both.setText("Magnitude") # Optional: clarifies it combines both
+            self._sobel_both.setText("Magnitude")
         else:
             self._sobel_x.setText("X")
             self._sobel_y.setText("Y")
             self._sobel_both.setText("Both")
-        # ------------------------------------------------------------------
 
-        if getattr(self, '_original_bytes', None): # Safely check if image is loaded
+        if getattr(self, '_original_bytes', None):
             self._set_status(f"Method changed to {method}. Click Apply.")
         else:
             self._set_status("Open an image to get started.")
@@ -178,27 +177,30 @@ class EdgeTab(BaseImageTab):
                     self._set_status("⚠️  T_low must be less than T_high.", error=True)
                     return
                 result = cv_backend.apply_canny(self._original_bytes, t_low, t_high, k)
-                self._set_status(f"✅  Canny applied — T_low={t_low}, T_high={t_high}, kernel={k}.")
+                status_msg = f"✅  Canny applied — T_low={t_low}, T_high={t_high}, kernel={k}."
 
             elif method in ("Sobel", "Prewitt", "Roberts"):
                 direction = self._sobel_btn_group.checkedId()
-                    
-                
+
                 if method == "Sobel":
                     result = cv_backend.apply_sobel(self._original_bytes, direction)
                     dir_label = {0: "X direction", 1: "Y direction", 2: "Both"}[direction]
                 elif method == "Prewitt":
                     result = cv_backend.apply_prewitt(self._original_bytes, direction)
                     dir_label = {0: "X direction", 1: "Y direction", 2: "Both"}[direction]
-                else: # Roberts
+                else:  # Roberts
                     result = cv_backend.apply_roberts(self._original_bytes, direction)
                     dir_label = {0: "Diag +45°", 1: "Diag -45°", 2: "Magnitude"}[direction]
-                
-                    
-                self._set_status(f"✅  {method} applied — {dir_label}.")
+
+                status_msg = f"✅  {method} applied — {dir_label}."
+
+            else:
+                return
 
         except Exception as e:
             self._set_status(f"❌  Error: {e}", error=True)
             return
 
-        set_label_image(self._proc_label, bytes_to_mat(result), max_w=380, max_h=280)
+        # _update_proc snapshots the previous state into UndoManager,
+        # then updates the processed panel and status bar.
+        self._update_proc(result, status_msg)

@@ -193,7 +193,9 @@ class NoiseTab(BaseImageTab):
 
         self._noisy_bytes = result
         self._undo_noise_btn.setEnabled(True)
+        self._snapshot()   # ← save state before displaying result
         set_label_image(self._proc_label, bytes_to_mat(result), max_w=380, max_h=280)
+        self._current_proc_bytes = result
         self._set_status(f"✅  {noise_type} noise applied — \"{preset['label'].strip()}\".")
 
     def _undo_noise(self):
@@ -236,6 +238,8 @@ class NoiseTab(BaseImageTab):
             self._set_status(f"❌  Error: {e}", error=True)
             return
 
+        self._snapshot()   # ← save state before displaying result
         set_label_image(self._proc_label, bytes_to_mat(result), max_w=380, max_h=280)
+        self._current_proc_bytes = result
         src_label = "noisy" if self._noisy_bytes else "original"
         self._set_status(f"✅  {filter_type} filter (k={k}) applied to {src_label} image.")
